@@ -1,9 +1,20 @@
 <?php
 	session_start();
 	// set up the database, yay!
-	
-	$link = mysql_connect('localhost', 'rickflei_exw', 'mM76GAFAM99Q') or die(mysql_error());
-		
-	mysql_select_db('rickflei_exw', $link) or die('Could not select database');	
+	const DB_HOST='localhost';
+	const DB_USER='root';
+	const DB_PW='Nafai6831';
+	const DB_DB='exoworld';
 
+
+	try {
+			$pdo = new PDO("mysql:host={DB_HOST};dbname={DB_DB}", '{DB_USER}', '{DB_PW}');
+			// set the PDO error mode to exception
+			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+			echo "Connected successfully"; 
+			}
+	catch(PDOException $e)
+			{
+			echo "Connection failed: " . $e->getMessage();
+			}
 ?>

@@ -25,14 +25,14 @@
 	<div id="header" style="">
         Welcome to Exo World.
         <?php if ($user['id']==1000) { ?>
-        <a class="abutton1" href="/?p=admin/main">Admin</a>
+        <a class="abutton1" href="?p=admin/main">Admin</a>
         <?php } ?>
-        <a class="abutton1" href="/?p=user/logout&notem">Logout</a>
-        <a class="abutton1" href="/">Home</a>
-        <a class="abutton1" href="/?p=player/list">Players</a>
+        <a class="abutton1" href="?p=user/logout&notem">Logout</a>
+        <a class="abutton1" href="./">Home</a>
+        <a class="abutton1" href="?p=player/list">Players</a>
         <br />
         <?php if (isset($player)) { ?>
-        	Active Player: <strong><a href="/?p=player/profile&player_id=<?=$player->id;?>"><?=$player->name;?></a></strong>
+        	Active Player: <strong><a href="?p=player/profile&player_id=<?=$player->id;?>"><?=$player->name;?></a></strong>
         <?php } ?>
 	</div>
     <div id="content" style=" ">

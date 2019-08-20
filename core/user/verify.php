@@ -12,11 +12,11 @@
 		$_SESSION['exwid']=$ver['id'];
 		$_SESSION['exwusername']=$ver['name'];
 		$_SESSION['exwpassword']=$ver['password'];
-		header('Location: /');
+		header('Location: /exoworld/');
 	} else {
 		unset($_SESSION['exwid']);
 		unset($_SESSION['exwusername']);
 		unset($_SESSION['exwpassword']);
-		header('Location: /?p=login');	
+		header('Location: /exoworld/?p=login');	
 	}
 ?>
