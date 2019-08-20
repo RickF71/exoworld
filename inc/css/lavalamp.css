@@ -1,0 +1,48 @@
+
+
+        #lavaLampLink {
+            position: relative;
+            background: url("images/bg.gif") no-repeat top;
+            padding: 15px;
+			padding-right:5px;
+            margin: 10px 0;
+            overflow: hidden;
+			height:620px;
+        }
+                #lavaLampLink li {
+                    /* float: left; */
+                    list-style: none;
+                }
+                    #lavaLampLink li.back {
+                        background: url("/images/underline.gif") no-repeat right -30px;
+                        width: 76px; height: 32px;
+                        z-index: 8;
+                        position: absolute;
+                    }
+                        #lavaLampLink li.back .left {
+                            background: url("/images/underline.gif") no-repeat top left;
+                            height: 80px;
+                            margin-right: 9px; /* 7px is the width of the rounded shape */
+                        }
+                    #lavaLampLink li a {
+                        font: bold 14px arial;
+                        text-decoration: none;
+                        color: #999;
+                        outline: none;
+                        text-align: right;
+                        top: 5px;
+						left: -7px;
+                        letter-spacing: 0;
+                        z-index: 10;
+                        display: block;
+                        /* float: left; */
+                        height: 30px;
+                        position: relative;
+                        overflow: hidden;
+                        margin: auto 8px;    
+                    }
+                        #lavaLampLink li a:hover, #lavaLampLink li a:active, #lavaLampLink li a:visited {
+                            color: #fff;
+                            border: none;
+                        }
+

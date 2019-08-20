@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.item_normal {
+	float:left;
+	width:200px;
+	height:150px;
+	border:1px solid blue;
+	margin: 2px;
+}

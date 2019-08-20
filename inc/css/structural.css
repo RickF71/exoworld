@@ -1,0 +1,113 @@
+/*
+structure css elements, like body, page headers and footers, and such
+
+
+
+*/
+@charset "utf-8";
+body {
+
+}
+
+#wrapper {
+	margin:0px auto; 
+	width:800px;
+	overflow:hidden;
+}
+
+#header {
+	margin-bottom:0px;
+	background-image:url(/images/bg_top.png); 
+	height:60px; 
+	padding-top:24px; 
+	padding-left: 220px;
+	line-height:24px;
+}
+
+#content {
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-left:25px;
+	padding-right:25px;
+	background-image:url(/images/bg_middle.png); 
+	background-repeat:repeat-y;
+}
+
+#footer {
+	margin-top:0px;
+	background-image:url(/images/bg_bottom.png); 
+	height:38px;
+}
+
+#warning {
+	display:block;
+	border:3px solid red;
+	padding: 5px 5px 5px 5px;
+}
+
+#message {
+	display:block;
+	border:3px solid green;
+	padding: 5px 5px 5px 5px;
+}
+
+.player_wide {
+	position:relative;
+	display:block;
+	padding:5px 5px 5px 5px;
+	border:1px solid #0000CC;
+	margin-bottom:2px;
+}
+
+.player_full {
+	border:1px solid #0000CC;
+	position: relative;
+	float:left;
+	width:240px;
+	height:200px;
+	margin: 2px 2px 2px 2px;
+}
+
+.player_full h1 {
+	text-align:center;
+	background-color:#333300;
+	font-size:14px;
+	display:block;
+	padding: 2px 2px 2px 2px;
+}
+
+.loc_exit {
+	width: 176px;
+	float:left;
+	margin:3px 3px 3px 3px;
+	padding: 1px 1px 1px 1px;
+	border:1px solid #333333;
+}
+.loc_exit h1{ 
+	font-size:14px;
+	width:172px;
+	text-align:center;
+	padding:2px 2px 2px 2px;
+	color:black	;
+}
+.loc_exit a{
+	color:#000099;
+}
+.elem_air h1{
+	background-image:url(/images/bg_air.png);
+}
+.elem_earth a{
+	color:white;
+}
+.elem_earth h1 {
+	background-image:url(/images/bg_earth.png);
+}
+.elem_water h1 {
+	background-image:url(/images/bg_water.png);
+}
+.elem_fire a{
+	color:white;
+}
+.elem_fire h1 {
+	background-image:url(/images/bg_fire.png);
+}

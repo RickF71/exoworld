@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* a.abutton1 {
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border: 2px solid #003399;
+	text-decoration:none;
+}
+
+* a.abutton1:hover {
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border: 2px solid #0099FF;
+	background-color:#000066;
+	color:#0099FF;
+	text-decoration:none;
+}
+
+
+a.battle_on {
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border: 2px solid #993333;
+	background-color:#660000;
+	color:#999999;
+	text-decoration:none;
+}
+
+a.battle_on:hover {
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border: 2px solid #aa4444;
+	background-color:#990000;
+	color:#999999;
+	text-decoration:none;
+}
+
+a.battle_off {
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border: 2px solid #003399;
+	text-decoration:none;
+}
+
+a.battle_off:hover {
+	margin: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border: 2px solid #0099FF;
+	background-color:#000066;
+	color:#0099FF;
+	text-decoration:none;
+}

@@ -1,0 +1,15 @@
+/* 
+this file, text.css, contains text formatting
+*/
+
+h1 {
+	margin:0 auto;
+	margin-top: 0px;
+}
+
+
+.request {
+ 	color:#FFFF66;
+	font-weight:bold;
+}
+

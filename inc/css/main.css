@@ -1,0 +1,36 @@
+@charset "utf-8";
+body {
+	background-color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#4891dc;
+	}
+	
+
+a {
+	padding:2px 2px 2px 2px;
+	margin:4px 4px 4px 4px;
+}
+a:link {
+	color:#999999;
+}
+a:visited {
+	color:#999999;
+}
+a:active {
+	color:#999999;
+}
+a:hover {
+	color: #0099FF;
+/*
+	background-color:#CCCCCC;
+	border:1px solid #0099CC;
+*/
+}
+
+ul {
+list-style-image:none;
+list-style-type:none;
+}
+li {
+line-height:20px;
+}

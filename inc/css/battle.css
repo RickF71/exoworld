@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+.player_tiny {
+	height:56px;
+	width:50px;
+	float:left;
+ 	border: 1px solid black;
+	margin-left:1px;
+}
+
+.player_tiny_selected {
+	border: 1px solid red;
+}
+
+.player_icon {
+	height:50px;
+	width:50px;
+	border:1px solid black;
+}
+
+#battle_player_list {
+	border: 1px solid black;
+	height:54px;
+	width: 216px;
+	float:left;
+	margin:1px 1px 5px 1px;
+	padding: 2px 2px 2px 2px;
+	padding-top:20px;
+	background-image:url(/images/battle/player_list.png);
+}
+
+#battle_sync {
+	border: 1px solid black;
+	height:54px;
+	width: 232px;
+	float:left;
+	margin:1px 1px 1px 1px;
+	padding:8px 10px 7px 10px;
+	margin-top:4px;
+	margin-bottom:4px;
+	background-image:url(/images/battle/sync_area.png);
+	font-size:12px;
+	color:#0099FF;
+	overflow:hidden;
+}
+
+#battle_opponent_list {
+	border: 1px solid black;
+	height:54px;
+	width: 216px;
+	float:left;
+	margin:1px 1px 5px 1px;
+	padding: 2px 2px 2px 2px;
+	padding-top:20px;
+	background-image:url(/images/battle/opponent_list.png);
+}
+
+#battle_player {
+	border: 1px solid #31367c;
+	height:354px;
+	width: 216px;
+	float:left;
+	margin: 1px 1px 1px 1px;
+	padding: 2px 2px 2px 2px;
+}
+
+#battle_status {
+	border: 1px solid #31367c;
+	height:354px;
+	width: 250px;
+	float:left;
+	margin:1px 1px 1px 1px;
+	padding:2px 2px 2px 2px;
+	font-size:12px;
+	color:#0099FF;	
+	overflow:hidden;
+}
+
+.battle_status_message {
+	border:1px solid #006600;
+	margin-bottom:2px;
+}
+
+.battle_status_action {
+	border:1px solid #660000;
+	margin-bottom:2px;
+}
+
+#battle_opponent {
+	border: 1px solid #31367c;
+	height:354px;
+	width: 216px;
+	float:left;
+	margin:1px 1px 1px 1px;
+	padding: 2px 2px 2px 2px;
+}
+
+#debug {
+	margin-right:30px;
+	width:700px;
+
+}
